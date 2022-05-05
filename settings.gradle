@@ -1,0 +1,2 @@
+rootProject.name = "Credit Card Limit"
+include ':app'

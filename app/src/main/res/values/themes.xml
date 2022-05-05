@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CreditCardLimit" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorSecondary">@color/blue</item>
+
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
+
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="backgroundTint">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+    <style name="Theme.CreditCardLimit.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="Theme.CreditCardLimit.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.CreditCardLimit.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
